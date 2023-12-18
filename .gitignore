@@ -1,0 +1,87 @@
+# Editor directories and files
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.idea/
+out/
+output/
+**/build/
+
+
+#Gradle
+.gradle
+*/.gradle
+**/gradle_build/
+*.iml
+**/*.iml
+*.ipr
+*.iws
+
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+
+## Java
+# either the 3rd party diff or IDEA:
+*.java.orig
+
+
+# Package Files
+**/build/libs/*.jar
+*.war
+*.ear
+
+
+# Logging
+*.log
+*.log.gz
+*.log-*.gz
+logs/
+
+# Node Modules
+node_modules/
+**/dist/
+
+
+# Bower
+bower_components/
+
+
+# local env files
+.env.local
+.env.*.local
+
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,9 @@
+# github.com/rs/cors v1.10.1
+## explicit; go 1.13
+github.com/rs/cors
+# goji.io v2.0.2+incompatible
+## explicit
+goji.io
+goji.io/internal
+goji.io/pat
+goji.io/pattern
