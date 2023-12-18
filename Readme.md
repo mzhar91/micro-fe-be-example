@@ -68,7 +68,9 @@ EDTS sharing session about micro FE and microservices
 
 ## Contact
 
-Harry Kurniawan - harry.kurniawan@sg-dsa.com
+Harry Kurniawan :
+- harry.kurniawan@sg-dsa.com
+- k.harry791@gmail.com
 
 Project Link: [https://github.com/mzhar91/micro-fe-be-example](https://github.com/mzhar91/micro-fe-be-example)
 
