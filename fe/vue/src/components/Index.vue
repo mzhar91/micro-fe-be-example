@@ -1,13 +1,15 @@
 <template>
-	<div class="card">
-		<div class="card-body">
-			<h5 class="card-title">{{title}}</h5>
-			<div class="form-group">
-			<label for="exampleFormControlInput1">Input Message</label>
-			<input v-model="message" class="form-control" placeholder="Send a message"/>
+	<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">This section is built by Vue, calling JAVA API</h5>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">{{title}}</label>
+					<input v-model="message" class="form-control" placeholder="Send a message"/>
+				</div>
 			</div>
 		</div>
-	</div>
+  </div>
 </template>
 
 <script>

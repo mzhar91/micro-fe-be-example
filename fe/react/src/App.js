@@ -31,18 +31,22 @@ function App() {
   // do not mind the ugly hack where the window location is replaced... 
   // demo only
   return (
+  <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">Microservices & Micro Front End example</h1>
+    <p class="lead">EDTS webinar x UKDC</p>
     <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">{data}</h5>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Input Message</label>
-        <input
-          className={`form-control ${styles.customCss}`}
-          type="text"
-          value={messager}
-          onChange={handleChange}
-          placeholder="Send a message..."
-        />
+      <div class="card-body">
+        <h5 class="card-title">This section is built by React, calling Golang API</h5>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">{data}</label>
+          <input
+            className={`form-control ${styles.customCss}`}
+            type="text"
+            value={messager}
+            onChange={handleChange}
+            placeholder="Send a message..."
+          />
+        </div>
       </div>
     </div>
   </div>
